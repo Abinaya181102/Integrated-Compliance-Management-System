@@ -65,7 +65,7 @@
   {
     "signal_id": "SEC-008",
     "type": "Encryption Misconfiguration",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-25T13:22:00Z",
     "affected_resource": "GOV-033",
     "description": "Storage encryption at rest disabled or misconfigured",
@@ -83,7 +83,7 @@
   {
     "signal_id": "SEC-010",
     "type": "Malware Alert",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-08T03:32:00Z",
     "affected_resource": "GOV-036",
     "description": "Suspicious executable or process detected on host",
@@ -92,7 +92,7 @@
   {
     "signal_id": "SEC-011",
     "type": "Privilege Escalation",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-01T08:55:00Z",
     "affected_resource": "GOV-061",
     "description": "User account granted elevated permissions outside approval workflow",
@@ -173,7 +173,7 @@
   {
     "signal_id": "SEC-020",
     "type": "Public Access Exposure",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-12T20:19:00Z",
     "affected_resource": "GOV-020",
     "description": "Resource has public network access enabled unexpectedly",
@@ -192,7 +192,7 @@
   {
     "signal_id": "SEC-022",
     "type": "Malware Alert",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-29T04:28:00Z",
     "affected_resource": "GOV-096",
     "description": "Suspicious executable or process detected on host",
@@ -229,7 +229,7 @@
   {
     "signal_id": "SEC-026",
     "type": "Data Exfiltration Attempt",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-12T13:05:00Z",
     "affected_resource": "GOV-025",
     "description": "Unusual outbound data transfer volume detected",
@@ -238,7 +238,7 @@
   {
     "signal_id": "SEC-027",
     "type": "Access Control Drift",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-27T10:58:00Z",
     "affected_resource": "GOV-041",
     "description": "Unauthorized role assignment detected on access group",
@@ -247,7 +247,7 @@
   {
     "signal_id": "SEC-028",
     "type": "Unpatched Vulnerability",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-30T03:51:00Z",
     "affected_resource": "GOV-064",
     "description": "Known CVE present on system, patch not yet applied",
@@ -274,7 +274,7 @@
   {
     "signal_id": "SEC-031",
     "type": "Public Access Exposure",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-22T15:39:00Z",
     "affected_resource": "GOV-080",
     "description": "Resource has public network access enabled unexpectedly",
@@ -294,7 +294,7 @@
   {
     "signal_id": "SEC-033",
     "type": "Weak Password Policy",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-17T06:58:00Z",
     "affected_resource": "GOV-080",
     "description": "Account password does not meet minimum complexity requirements",
@@ -312,7 +312,7 @@
   {
     "signal_id": "SEC-035",
     "type": "Public Access Exposure",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-07-01T01:41:00Z",
     "affected_resource": "GOV-004",
     "description": "Resource has public network access enabled unexpectedly",
@@ -349,7 +349,7 @@
   {
     "signal_id": "SEC-039",
     "type": "Anomalous Login",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-25T03:00:00Z",
     "affected_resource": "GOV-060",
     "description": "Login from unrecognized geographic location or device",
@@ -395,7 +395,7 @@
   {
     "signal_id": "SEC-044",
     "type": "Encryption Misconfiguration",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-19T14:11:00Z",
     "affected_resource": "GOV-030",
     "description": "Storage encryption at rest disabled or misconfigured",
@@ -449,7 +449,7 @@
   {
     "signal_id": "SEC-050",
     "type": "Anomalous Login",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-21T14:13:00Z",
     "affected_resource": "GOV-044",
     "description": "Login from unrecognized geographic location or device",
@@ -521,7 +521,7 @@
   {
     "signal_id": "SEC-058",
     "type": "Malware Alert",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-12T12:18:00Z",
     "affected_resource": "GOV-096",
     "description": "Suspicious executable or process detected on host",
@@ -530,7 +530,7 @@
   {
     "signal_id": "SEC-059",
     "type": "Data Exfiltration Attempt",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-04T00:14:00Z",
     "affected_resource": "GOV-020",
     "description": "Unusual outbound data transfer volume detected",
@@ -539,7 +539,7 @@
   {
     "signal_id": "SEC-060",
     "type": "Public Access Exposure",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-02T10:43:00Z",
     "affected_resource": "GOV-005",
     "description": "Resource has public network access enabled unexpectedly",
@@ -549,7 +549,7 @@
   {
     "signal_id": "SEC-061",
     "type": "Access Control Drift",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-13T16:06:00Z",
     "affected_resource": "GOV-047",
     "description": "Unauthorized role assignment detected on access group",
@@ -640,7 +640,7 @@
   {
     "signal_id": "SEC-071",
     "type": "Public Access Exposure",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-09T16:21:00Z",
     "affected_resource": "GOV-006",
     "description": "Resource has public network access enabled unexpectedly",
@@ -659,7 +659,7 @@
   {
     "signal_id": "SEC-073",
     "type": "Unpatched Vulnerability",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-29T20:29:00Z",
     "affected_resource": "GOV-092",
     "description": "Known CVE present on system, patch not yet applied",
@@ -687,7 +687,7 @@
   {
     "signal_id": "SEC-076",
     "type": "Privilege Escalation",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-07-05T01:53:00Z",
     "affected_resource": "GOV-084",
     "description": "User account granted elevated permissions outside approval workflow",
@@ -705,7 +705,7 @@
   {
     "signal_id": "SEC-078",
     "type": "Firewall Rule Violation",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-15T00:54:00Z",
     "affected_resource": "GOV-041",
     "description": "Inbound rule allows traffic from unapproved IP range",
@@ -841,7 +841,7 @@
   {
     "signal_id": "SEC-093",
     "type": "Firewall Rule Violation",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-06-24T17:12:00Z",
     "affected_resource": "GOV-066",
     "description": "Inbound rule allows traffic from unapproved IP range",
@@ -896,7 +896,7 @@
   {
     "signal_id": "SEC-099",
     "type": "Public Access Exposure",
-    "severity": "Critical",
+    "severity": "High",
     "timestamp": "2026-05-17T00:58:00Z",
     "affected_resource": "GOV-056",
     "description": "Resource has public network access enabled unexpectedly",

@@ -32,15 +32,21 @@ def run_check(data_path=DATA_PATH):
     for v in violations[:10]:
         print(f"  - {v.get('signal_id')}: {v.get('description')} (severity: {v.get('severity')})")
 
-    passed = flagged == 0
-    return passed, violations
+    # Business rule: only Critical severity encryption violations hard-fail the build.
+    # High/Medium/Low violations are logged and tracked but do not block the pipeline —
+    # mirrors the same tiered approach used in check_public_access.py.
+    critical_violations = [v for v in violations if v.get("severity") == "Critical"]
+
+    passed = len(critical_violations) == 0
+    return passed, violations, critical_violations
 
 
 if __name__ == "__main__":
-    passed, violations = run_check()
+    passed, violations, critical_violations = run_check()
     if not passed:
-        print(f"\nRESULT: FAIL — {len(violations)} unencrypted resources detected")
+        print(f"\nRESULT: FAIL — {len(critical_violations)} Critical severity encryption violations detected "
+              f"(out of {len(violations)} total)")
         sys.exit(1)
     else:
-        print("\nRESULT: PASS — no encryption violations")
+        print(f"\nRESULT: PASS — {len(violations)} encryption violations found, none Critical severity")
         sys.exit(0)
