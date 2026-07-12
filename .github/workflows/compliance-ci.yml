@@ -1,0 +1,41 @@
+name: Compliance CI
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  compliance-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install sqlalchemy pandas great_expectations pytest fastapi uvicorn httpx python-multipart
+
+      - name: Run unit and integration tests
+        run: pytest tests/ -v
+
+      - name: Run compliance check - Encryption
+        run: python validation/check_encryption.py
+
+      - name: Run compliance check - Public Access
+        run: python validation/check_public_access.py
+
+      - name: Run compliance check - Audit Evidence
+        run: python validation/check_audit_evidence.py
+
+      - name: Summary
+        if: always()
+        run: echo "Compliance CI run complete — see individual step results above for pass/fail status per control."
