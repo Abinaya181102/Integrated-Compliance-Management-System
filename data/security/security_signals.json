@@ -1,0 +1,916 @@
+[
+  {
+    "signal_id": "SEC-001",
+    "type": "Malware Alert",
+    "severity": "Low",
+    "timestamp": "2026-07-01T23:34:00Z",
+    "affected_resource": "GOV-058",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-002",
+    "type": "Firewall Rule Violation",
+    "severity": "High",
+    "timestamp": "2026-07-09T16:42:00Z",
+    "affected_resource": "GOV-091",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-003",
+    "type": "Firewall Rule Violation",
+    "severity": "Low",
+    "timestamp": "2026-05-29T16:01:00Z",
+    "affected_resource": "GOV-034",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-004",
+    "type": "Privilege Escalation",
+    "severity": "Medium",
+    "timestamp": "2026-06-14T20:26:00Z",
+    "affected_resource": "GOV-029",
+    "description": "User account granted elevated permissions outside approval workflow",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-005",
+    "type": "Anomalous Login",
+    "severity": "Medium",
+    "timestamp": "2026-07-07T22:50:00Z",
+    "affected_resource": "GOV-040",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-006",
+    "type": "Privilege Escalation",
+    "severity": "High",
+    "timestamp": "2026-06-13T20:31:00Z",
+    "affected_resource": "GOV-089",
+    "description": "User account granted elevated permissions outside approval workflow",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-007",
+    "type": "Unpatched Vulnerability",
+    "severity": "High",
+    "timestamp": "2026-06-09T06:29:00Z",
+    "affected_resource": "GOV-057",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-008",
+    "type": "Encryption Misconfiguration",
+    "severity": "Critical",
+    "timestamp": "2026-05-25T13:22:00Z",
+    "affected_resource": "GOV-033",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-009",
+    "type": "Access Control Drift",
+    "severity": "Low",
+    "timestamp": "2026-05-24T02:08:00Z",
+    "affected_resource": "GOV-035",
+    "description": "Unauthorized role assignment detected on access group",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-010",
+    "type": "Malware Alert",
+    "severity": "Critical",
+    "timestamp": "2026-06-08T03:32:00Z",
+    "affected_resource": "GOV-036",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-011",
+    "type": "Privilege Escalation",
+    "severity": "Critical",
+    "timestamp": "2026-06-01T08:55:00Z",
+    "affected_resource": "GOV-061",
+    "description": "User account granted elevated permissions outside approval workflow",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-012",
+    "type": "Weak Password Policy",
+    "severity": "High",
+    "timestamp": "2026-05-30T20:06:00Z",
+    "affected_resource": "GOV-021",
+    "description": "Account password does not meet minimum complexity requirements",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-013",
+    "type": "Firewall Rule Violation",
+    "severity": "High",
+    "timestamp": "2026-05-30T11:08:00Z",
+    "affected_resource": "GOV-098",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-014",
+    "type": "Firewall Rule Violation",
+    "severity": "Low",
+    "timestamp": "2026-06-21T15:40:00Z",
+    "affected_resource": "GOV-015",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-015",
+    "type": "Unpatched Vulnerability",
+    "severity": "Low",
+    "timestamp": "2026-05-30T06:31:00Z",
+    "affected_resource": "GOV-053",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-016",
+    "type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "timestamp": "2026-06-02T08:20:00Z",
+    "affected_resource": "GOV-057",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-017",
+    "type": "Access Control Drift",
+    "severity": "High",
+    "timestamp": "2026-06-06T19:01:00Z",
+    "affected_resource": "GOV-037",
+    "description": "Unauthorized role assignment detected on access group",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-018",
+    "type": "Firewall Rule Violation",
+    "severity": "Low",
+    "timestamp": "2026-07-10T03:22:00Z",
+    "affected_resource": "GOV-031",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-019",
+    "type": "Anomalous Login",
+    "severity": "Low",
+    "timestamp": "2026-06-06T10:55:00Z",
+    "affected_resource": "GOV-029",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-020",
+    "type": "Public Access Exposure",
+    "severity": "Critical",
+    "timestamp": "2026-05-12T20:19:00Z",
+    "affected_resource": "GOV-020",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": true,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-021",
+    "type": "Anomalous Login",
+    "severity": "High",
+    "timestamp": "2026-06-15T08:30:00Z",
+    "affected_resource": "GOV-032",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-022",
+    "type": "Malware Alert",
+    "severity": "Critical",
+    "timestamp": "2026-06-29T04:28:00Z",
+    "affected_resource": "GOV-096",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-023",
+    "type": "Public Access Exposure",
+    "severity": "High",
+    "timestamp": "2026-05-23T10:39:00Z",
+    "affected_resource": "GOV-065",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": false,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-024",
+    "type": "Encryption Misconfiguration",
+    "severity": "High",
+    "timestamp": "2026-05-26T14:07:00Z",
+    "affected_resource": "GOV-076",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-025",
+    "type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "timestamp": "2026-06-13T06:30:00Z",
+    "affected_resource": "GOV-045",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-026",
+    "type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "timestamp": "2026-06-12T13:05:00Z",
+    "affected_resource": "GOV-025",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-027",
+    "type": "Access Control Drift",
+    "severity": "Critical",
+    "timestamp": "2026-06-27T10:58:00Z",
+    "affected_resource": "GOV-041",
+    "description": "Unauthorized role assignment detected on access group",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-028",
+    "type": "Unpatched Vulnerability",
+    "severity": "Critical",
+    "timestamp": "2026-05-30T03:51:00Z",
+    "affected_resource": "GOV-064",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-029",
+    "type": "Malware Alert",
+    "severity": "High",
+    "timestamp": "2026-05-17T20:05:00Z",
+    "affected_resource": "GOV-057",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-030",
+    "type": "Firewall Rule Violation",
+    "severity": "Low",
+    "timestamp": "2026-05-26T19:34:00Z",
+    "affected_resource": "GOV-084",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-031",
+    "type": "Public Access Exposure",
+    "severity": "Critical",
+    "timestamp": "2026-05-22T15:39:00Z",
+    "affected_resource": "GOV-080",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": true,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-032",
+    "type": "Public Access Exposure",
+    "severity": "High",
+    "timestamp": "2026-05-18T02:06:00Z",
+    "affected_resource": "GOV-069",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": true,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-033",
+    "type": "Weak Password Policy",
+    "severity": "Critical",
+    "timestamp": "2026-05-17T06:58:00Z",
+    "affected_resource": "GOV-080",
+    "description": "Account password does not meet minimum complexity requirements",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-034",
+    "type": "Anomalous Login",
+    "severity": "Medium",
+    "timestamp": "2026-05-25T21:33:00Z",
+    "affected_resource": "GOV-013",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-035",
+    "type": "Public Access Exposure",
+    "severity": "Critical",
+    "timestamp": "2026-07-01T01:41:00Z",
+    "affected_resource": "GOV-004",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": false,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-036",
+    "type": "Encryption Misconfiguration",
+    "severity": "High",
+    "timestamp": "2026-06-19T12:33:00Z",
+    "affected_resource": "GOV-019",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-037",
+    "type": "Unpatched Vulnerability",
+    "severity": "Medium",
+    "timestamp": "2026-07-01T18:55:00Z",
+    "affected_resource": "GOV-079",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-038",
+    "type": "Privilege Escalation",
+    "severity": "Medium",
+    "timestamp": "2026-06-10T05:51:00Z",
+    "affected_resource": "GOV-030",
+    "description": "User account granted elevated permissions outside approval workflow",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-039",
+    "type": "Anomalous Login",
+    "severity": "Critical",
+    "timestamp": "2026-06-25T03:00:00Z",
+    "affected_resource": "GOV-060",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-040",
+    "type": "Data Exfiltration Attempt",
+    "severity": "Medium",
+    "timestamp": "2026-07-07T09:38:00Z",
+    "affected_resource": "GOV-076",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-041",
+    "type": "Unpatched Vulnerability",
+    "severity": "High",
+    "timestamp": "2026-06-12T14:48:00Z",
+    "affected_resource": "GOV-050",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-042",
+    "type": "Public Access Exposure",
+    "severity": "Medium",
+    "timestamp": "2026-06-17T05:38:00Z",
+    "affected_resource": "GOV-074",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": false,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-043",
+    "type": "Anomalous Login",
+    "severity": "Low",
+    "timestamp": "2026-05-19T02:35:00Z",
+    "affected_resource": "GOV-036",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-044",
+    "type": "Encryption Misconfiguration",
+    "severity": "Critical",
+    "timestamp": "2026-05-19T14:11:00Z",
+    "affected_resource": "GOV-030",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-045",
+    "type": "Weak Password Policy",
+    "severity": "Medium",
+    "timestamp": "2026-06-01T17:21:00Z",
+    "affected_resource": "GOV-033",
+    "description": "Account password does not meet minimum complexity requirements",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-046",
+    "type": "Malware Alert",
+    "severity": "Low",
+    "timestamp": "2026-05-15T03:19:00Z",
+    "affected_resource": "GOV-006",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-047",
+    "type": "Firewall Rule Violation",
+    "severity": "Low",
+    "timestamp": "2026-06-04T12:14:00Z",
+    "affected_resource": "GOV-017",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-048",
+    "type": "Anomalous Login",
+    "severity": "High",
+    "timestamp": "2026-05-25T10:49:00Z",
+    "affected_resource": "GOV-026",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-049",
+    "type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "timestamp": "2026-06-08T07:02:00Z",
+    "affected_resource": "GOV-035",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-050",
+    "type": "Anomalous Login",
+    "severity": "Critical",
+    "timestamp": "2026-05-21T14:13:00Z",
+    "affected_resource": "GOV-044",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-051",
+    "type": "Firewall Rule Violation",
+    "severity": "Low",
+    "timestamp": "2026-07-02T16:05:00Z",
+    "affected_resource": "GOV-087",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-052",
+    "type": "Unpatched Vulnerability",
+    "severity": "High",
+    "timestamp": "2026-07-06T12:00:00Z",
+    "affected_resource": "GOV-034",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-053",
+    "type": "Firewall Rule Violation",
+    "severity": "High",
+    "timestamp": "2026-05-29T00:17:00Z",
+    "affected_resource": "GOV-034",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-054",
+    "type": "Weak Password Policy",
+    "severity": "Low",
+    "timestamp": "2026-05-29T16:30:00Z",
+    "affected_resource": "GOV-004",
+    "description": "Account password does not meet minimum complexity requirements",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-055",
+    "type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "timestamp": "2026-05-14T04:46:00Z",
+    "affected_resource": "GOV-083",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-056",
+    "type": "Firewall Rule Violation",
+    "severity": "High",
+    "timestamp": "2026-05-31T10:53:00Z",
+    "affected_resource": "GOV-018",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-057",
+    "type": "Encryption Misconfiguration",
+    "severity": "High",
+    "timestamp": "2026-06-10T20:54:00Z",
+    "affected_resource": "GOV-031",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-058",
+    "type": "Malware Alert",
+    "severity": "Critical",
+    "timestamp": "2026-06-12T12:18:00Z",
+    "affected_resource": "GOV-096",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-059",
+    "type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "timestamp": "2026-06-04T00:14:00Z",
+    "affected_resource": "GOV-020",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-060",
+    "type": "Public Access Exposure",
+    "severity": "Critical",
+    "timestamp": "2026-06-02T10:43:00Z",
+    "affected_resource": "GOV-005",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": true,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-061",
+    "type": "Access Control Drift",
+    "severity": "Critical",
+    "timestamp": "2026-06-13T16:06:00Z",
+    "affected_resource": "GOV-047",
+    "description": "Unauthorized role assignment detected on access group",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-062",
+    "type": "Weak Password Policy",
+    "severity": "High",
+    "timestamp": "2026-07-08T11:43:00Z",
+    "affected_resource": "GOV-025",
+    "description": "Account password does not meet minimum complexity requirements",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-063",
+    "type": "Firewall Rule Violation",
+    "severity": "Low",
+    "timestamp": "2026-05-30T17:19:00Z",
+    "affected_resource": "GOV-082",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-064",
+    "type": "Encryption Misconfiguration",
+    "severity": "Low",
+    "timestamp": "2026-05-22T13:45:00Z",
+    "affected_resource": "GOV-017",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-065",
+    "type": "Access Control Drift",
+    "severity": "Low",
+    "timestamp": "2026-05-19T06:47:00Z",
+    "affected_resource": "GOV-076",
+    "description": "Unauthorized role assignment detected on access group",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-066",
+    "type": "Access Control Drift",
+    "severity": "High",
+    "timestamp": "2026-05-23T19:10:00Z",
+    "affected_resource": "GOV-077",
+    "description": "Unauthorized role assignment detected on access group",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-067",
+    "type": "Malware Alert",
+    "severity": "Medium",
+    "timestamp": "2026-06-07T15:09:00Z",
+    "affected_resource": "GOV-023",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-068",
+    "type": "Encryption Misconfiguration",
+    "severity": "Medium",
+    "timestamp": "2026-07-11T12:10:00Z",
+    "affected_resource": "GOV-031",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-069",
+    "type": "Encryption Misconfiguration",
+    "severity": "Medium",
+    "timestamp": "2026-06-25T22:52:00Z",
+    "affected_resource": "GOV-095",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-070",
+    "type": "Public Access Exposure",
+    "severity": "Low",
+    "timestamp": "2026-06-11T09:11:00Z",
+    "affected_resource": "GOV-047",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": true,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-071",
+    "type": "Public Access Exposure",
+    "severity": "Critical",
+    "timestamp": "2026-06-09T16:21:00Z",
+    "affected_resource": "GOV-006",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": true,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-072",
+    "type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "timestamp": "2026-06-12T03:59:00Z",
+    "affected_resource": "GOV-008",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-073",
+    "type": "Unpatched Vulnerability",
+    "severity": "Critical",
+    "timestamp": "2026-05-29T20:29:00Z",
+    "affected_resource": "GOV-092",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-074",
+    "type": "Public Access Exposure",
+    "severity": "Low",
+    "timestamp": "2026-06-21T04:51:00Z",
+    "affected_resource": "GOV-009",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": false,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-075",
+    "type": "Privilege Escalation",
+    "severity": "High",
+    "timestamp": "2026-06-17T04:27:00Z",
+    "affected_resource": "GOV-038",
+    "description": "User account granted elevated permissions outside approval workflow",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-076",
+    "type": "Privilege Escalation",
+    "severity": "Critical",
+    "timestamp": "2026-07-05T01:53:00Z",
+    "affected_resource": "GOV-084",
+    "description": "User account granted elevated permissions outside approval workflow",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-077",
+    "type": "Data Exfiltration Attempt",
+    "severity": "Medium",
+    "timestamp": "2026-06-14T09:04:00Z",
+    "affected_resource": "GOV-030",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-078",
+    "type": "Firewall Rule Violation",
+    "severity": "Critical",
+    "timestamp": "2026-06-15T00:54:00Z",
+    "affected_resource": "GOV-041",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-079",
+    "type": "Anomalous Login",
+    "severity": "High",
+    "timestamp": "2026-07-02T02:01:00Z",
+    "affected_resource": "GOV-061",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-080",
+    "type": "Public Access Exposure",
+    "severity": "Low",
+    "timestamp": "2026-06-14T20:13:00Z",
+    "affected_resource": "GOV-095",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": true,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-081",
+    "type": "Malware Alert",
+    "severity": "Low",
+    "timestamp": "2026-06-04T06:25:00Z",
+    "affected_resource": "GOV-043",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-082",
+    "type": "Unpatched Vulnerability",
+    "severity": "High",
+    "timestamp": "2026-05-17T02:12:00Z",
+    "affected_resource": "GOV-055",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-083",
+    "type": "Encryption Misconfiguration",
+    "severity": "High",
+    "timestamp": "2026-06-03T14:38:00Z",
+    "affected_resource": "GOV-014",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-084",
+    "type": "Access Control Drift",
+    "severity": "Medium",
+    "timestamp": "2026-05-30T08:46:00Z",
+    "affected_resource": "GOV-014",
+    "description": "Unauthorized role assignment detected on access group",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-085",
+    "type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "timestamp": "2026-07-04T15:24:00Z",
+    "affected_resource": "GOV-029",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-086",
+    "type": "Data Exfiltration Attempt",
+    "severity": "Low",
+    "timestamp": "2026-06-03T02:07:00Z",
+    "affected_resource": "GOV-089",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-087",
+    "type": "Malware Alert",
+    "severity": "High",
+    "timestamp": "2026-05-28T14:02:00Z",
+    "affected_resource": "GOV-044",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-088",
+    "type": "Malware Alert",
+    "severity": "Medium",
+    "timestamp": "2026-06-05T02:35:00Z",
+    "affected_resource": "GOV-009",
+    "description": "Suspicious executable or process detected on host",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-089",
+    "type": "Encryption Misconfiguration",
+    "severity": "Low",
+    "timestamp": "2026-05-25T07:47:00Z",
+    "affected_resource": "GOV-049",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-090",
+    "type": "Weak Password Policy",
+    "severity": "Medium",
+    "timestamp": "2026-06-18T14:14:00Z",
+    "affected_resource": "GOV-042",
+    "description": "Account password does not meet minimum complexity requirements",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-091",
+    "type": "Privilege Escalation",
+    "severity": "Low",
+    "timestamp": "2026-05-16T22:51:00Z",
+    "affected_resource": "GOV-021",
+    "description": "User account granted elevated permissions outside approval workflow",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-092",
+    "type": "Encryption Misconfiguration",
+    "severity": "Low",
+    "timestamp": "2026-06-24T09:18:00Z",
+    "affected_resource": "GOV-055",
+    "description": "Storage encryption at rest disabled or misconfigured",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-093",
+    "type": "Firewall Rule Violation",
+    "severity": "Critical",
+    "timestamp": "2026-06-24T17:12:00Z",
+    "affected_resource": "GOV-066",
+    "description": "Inbound rule allows traffic from unapproved IP range",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-094",
+    "type": "Unpatched Vulnerability",
+    "severity": "Low",
+    "timestamp": "2026-06-23T02:17:00Z",
+    "affected_resource": "GOV-076",
+    "description": "Known CVE present on system, patch not yet applied",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-095",
+    "type": "Anomalous Login",
+    "severity": "Low",
+    "timestamp": "2026-06-27T11:22:00Z",
+    "affected_resource": "GOV-008",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-096",
+    "type": "Anomalous Login",
+    "severity": "Medium",
+    "timestamp": "2026-05-23T19:12:00Z",
+    "affected_resource": "GOV-033",
+    "description": "Login from unrecognized geographic location or device",
+    "encrypted": false
+  },
+  {
+    "signal_id": "SEC-097",
+    "type": "Public Access Exposure",
+    "severity": "Low",
+    "timestamp": "2026-06-10T00:33:00Z",
+    "affected_resource": "GOV-023",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": false,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-098",
+    "type": "Data Exfiltration Attempt",
+    "severity": "Medium",
+    "timestamp": "2026-06-09T06:07:00Z",
+    "affected_resource": "GOV-086",
+    "description": "Unusual outbound data transfer volume detected",
+    "encrypted": true
+  },
+  {
+    "signal_id": "SEC-099",
+    "type": "Public Access Exposure",
+    "severity": "Critical",
+    "timestamp": "2026-05-17T00:58:00Z",
+    "affected_resource": "GOV-056",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": false,
+    "public_access": true
+  },
+  {
+    "signal_id": "SEC-100",
+    "type": "Public Access Exposure",
+    "severity": "High",
+    "timestamp": "2026-06-05T10:24:00Z",
+    "affected_resource": "GOV-052",
+    "description": "Resource has public network access enabled unexpectedly",
+    "encrypted": true,
+    "public_access": true
+  }
+]

@@ -1,0 +1,101 @@
+asset_id,asset_name,asset_type,owner,department,classification,last_reviewed,metadata_tag
+GOV-001,Data Access Store,Process,Anjali Nair,Data Engineering,Internal,2026-06-16,audit-trail
+GOV-002,HR Billing System,Process,Vivek Pandey,HR,Confidential,,contract-data
+GOV-003,Legal Config Store,Dataset,Karthik Kulkarni,Legal,Internal,2026-01-14,public-content
+GOV-004,IT Access Store,Process,Aditya Subramaniam,IT Security,Confidential,2026-06-02,operational-metrics
+GOV-005,Procurement Processing Module,Dataset,Aditya Nambiar,Procurement,Restricted,2026-04-06,financial-data
+GOV-006,Legal Records System,System,Rohan Varma,Legal,Public,2026-04-07,financial-data
+GOV-007,Sales Backup Service,Process,Manoj Gupta,Sales,Internal,2026-07-01,audit-trail
+GOV-008,HR Analytics Pipeline,Dataset,Karthik Gupta,HR,Public,2026-01-31,payroll
+GOV-009,Operations Access Store,Dataset,Arjun Varma,Operations,Confidential,2026-05-30,public-content
+GOV-010,Finance Notification Engine,System,Vivek Subramaniam,Finance,Restricted,2026-01-30,operational-metrics
+GOV-011,Sales Records System,System,Manoj Subramaniam,Sales,Internal,2026-04-23,unclassified
+GOV-012,Marketing Monitoring Dashboard,Process,Meera Rao,Marketing,Internal,2026-04-02,audit-trail
+GOV-013,Procurement Ticket Logs,Dataset,Pooja Iyer,Procurement,Restricted,2026-03-25,customer-data
+GOV-014,Marketing API Gateway,Dataset,Kavya Varma,Marketing,Public,2026-06-30,financial-data
+GOV-015,Sales Workflow Engine,System,Sneha Reddy,Sales,Confidential,2026-02-10,credentials
+GOV-016,Learning Analytics Pipeline,Dataset,Shreya Pillai,Learning & Development,Restricted,2026-04-16,financial-data
+GOV-017,Finance Database,System,Sanjay Bhat,Finance,Restricted,2026-05-28,public-content
+GOV-018,Sales API Gateway,System,Harish Nair,Sales,Internal,2026-06-01,public-content
+GOV-019,Data Monitoring Dashboard,Process,Swati Kulkarni,Data Engineering,Public,,payroll
+GOV-020,Marketing Ticket Logs,Dataset,Preeti Gupta,Marketing,Confidential,2026-03-10,financial-data
+GOV-021,Finance Data Lake,Dataset,Swati Pandey,Finance,Internal,2026-02-07,unclassified
+GOV-022,Product Processing Module,Process,Divya Pandey,Product,Restricted,2026-01-22,audit-trail
+GOV-023,Learning Analytics Pipeline,System,Rohan Desai,Learning & Development,Internal,2026-04-17,pii-included
+GOV-024,Marketing Ticket Logs,Process,Deepa Pandey,Marketing,Confidential,,audit-trail
+GOV-025,HR Monitoring Dashboard,Dataset,Rahul Subramaniam,HR,Confidential,2026-05-02,audit-trail
+GOV-026,Learning Audit Log System,Dataset,Nikhil Krishnan,Learning & Development,Public,2026-03-13,unclassified
+GOV-027,HR Billing System,Process,Divya Nair,HR,Restricted,2026-03-15,operational-metrics
+GOV-028,Data Monitoring Dashboard,System,Rahul Nair,Data Engineering,Confidential,2026-05-25,public-content
+GOV-029,Customer Access Store,Dataset,Pooja Iyer,Customer Support,Public,2026-06-23,credentials
+GOV-030,HR Config Store,Dataset,Ganesh Pandey,HR,Confidential,2026-05-13,analytics
+GOV-031,IT Notification Engine,Dataset,Aditya Joshi,IT Security,Confidential,2026-07-12,unclassified
+GOV-032,Procurement Config Store,System,Meera Desai,Procurement,Public,2026-04-28,contract-data
+GOV-033,Product Records System,Process,Rahul Mishra,Product,Restricted,,customer-data
+GOV-034,Learning Records System,Dataset,Nikhil Kulkarni,Learning & Development,Confidential,2026-06-25,customer-data
+GOV-035,Customer Audit Log System,Dataset,Ananya Subramaniam,Customer Support,Internal,2026-07-02,customer-data
+GOV-036,Sales Audit Log System,Process,Ananya Bhat,Sales,Restricted,2026-05-21,audit-trail
+GOV-037,Marketing Notification Engine,System,Neha Nambiar,Marketing,Internal,2026-04-27,credentials
+GOV-038,Data Workflow Engine,System,Lakshmi Rao,Data Engineering,Confidential,,contract-data
+GOV-039,Finance Reporting Platform,System,Shreya Pillai,Finance,Internal,2026-06-02,credentials
+GOV-040,Product Workflow Engine,System,Ritu Pandey,Product,Confidential,2026-02-21,inventory
+GOV-041,Finance Analytics Pipeline,System,Harish Nair,Finance,Confidential,2026-06-03,inventory
+GOV-042,Marketing Monitoring Dashboard,Process,Sanjay Verma,Marketing,Internal,2026-05-06,public-content
+GOV-043,Data Billing System,Dataset,Nikhil Pillai,Data Engineering,Restricted,,payroll
+GOV-044,Sales Inventory System,System,Swati Iyer,Sales,Public,2026-03-25,public-content
+GOV-045,HR Repository,Process,Priya Nair,HR,Confidential,2026-02-13,public-content
+GOV-046,Finance Materials Archive,Dataset,Sneha Bhat,Finance,Restricted,2026-07-02,payroll
+GOV-047,Sales Backup Service,Dataset,Divya Subramaniam,Sales,Public,2026-06-03,contract-data
+GOV-048,Finance Database,System,Naveen Reddy,Finance,Internal,2026-04-18,unclassified
+GOV-049,Procurement Analytics Pipeline,Dataset,Ganesh Subramaniam,Procurement,Public,2026-03-14,contract-data
+GOV-050,Operations Ticket Logs,System,Divya Desai,Operations,Internal,,contract-data
+GOV-051,Procurement Access Store,Dataset,Kavya Nambiar,Procurement,Restricted,2026-04-01,audit-trail
+GOV-052,Operations Analytics Pipeline,Dataset,Ritu Pandey,Operations,Restricted,2026-05-06,pii-included
+GOV-053,Customer Monitoring Dashboard,System,Vikram Verma,Customer Support,Public,2026-03-04,financial-data
+GOV-054,Marketing Records System,System,Kavya Mishra,Marketing,Public,,public-content
+GOV-055,Operations Reporting Platform,System,Rajesh Krishnan,Operations,Restricted,2026-01-24,financial-data
+GOV-056,Learning Billing System,System,Vivek Gupta,Learning & Development,Restricted,2026-04-28,public-content
+GOV-057,Customer Notification Engine,Process,Sneha Krishnan,Customer Support,Internal,2026-04-26,unclassified
+GOV-058,Procurement Processing Module,System,Manoj Sharma,Procurement,Public,2026-02-07,audit-trail
+GOV-059,IT Processing Module,System,Lakshmi Desai,IT Security,Public,2026-05-30,audit-trail
+GOV-060,Learning Workflow Engine,Process,Ananya Gupta,Learning & Development,Restricted,2026-05-13,audit-trail
+GOV-061,Marketing Database,Dataset,Sanjay Subramaniam,Marketing,Confidential,2026-03-13,customer-data
+GOV-062,IT Audit Log System,System,Naveen Rao,IT Security,Internal,2026-04-05,credentials
+GOV-063,Finance Database,Process,Kavya Subramaniam,Finance,Confidential,2026-05-17,analytics
+GOV-064,IT Config Store,Dataset,Ganesh Kulkarni,IT Security,Internal,2026-06-11,credentials
+GOV-065,Sales Config Store,Process,Sneha Desai,Sales,Restricted,2026-03-21,customer-data
+GOV-066,Customer CRM Module,Process,Ritu Kulkarni,Customer Support,Internal,2026-03-13,credentials
+GOV-067,Sales API Gateway,System,Meera Subramaniam,Sales,Public,2026-05-03,credentials
+GOV-068,Marketing Monitoring Dashboard,System,Ananya Gupta,Marketing,Restricted,2026-06-22,analytics
+GOV-069,Customer Repository,Process,Sneha Subramaniam,Customer Support,Internal,,unclassified
+GOV-070,IT Records System,System,Lakshmi Pandey,IT Security,Internal,2026-04-04,customer-data
+GOV-071,Legal Data Lake,System,Neha Sharma,Legal,Confidential,2026-04-27,unclassified
+GOV-072,Learning Config Store,Process,Naveen Bhat,Learning & Development,Internal,2026-05-04,unclassified
+GOV-073,Customer Notification Engine,System,Nikhil Sharma,Customer Support,Internal,2026-06-10,customer-data
+GOV-074,Customer Audit Log System,Process,Manoj Sharma,Customer Support,Confidential,2026-03-25,analytics
+GOV-075,Finance Access Store,Dataset,Naveen Desai,Finance,Public,2026-03-18,payroll
+GOV-076,Procurement Access Store,System,Lakshmi Chandran,Procurement,Confidential,2026-02-24,pii-included
+GOV-077,Sales Records System,Dataset,Rohan Subramaniam,Sales,Confidential,2026-05-22,pii-included
+GOV-078,Marketing Data Lake,Dataset,Suresh Iyer,Marketing,Confidential,2026-05-18,credentials
+GOV-079,Operations Workflow Engine,Dataset,Neha Pillai,Operations,Confidential,2026-06-01,inventory
+GOV-080,Data Audit Log System,System,Vikram Mishra,Data Engineering,Public,2026-05-23,financial-data
+GOV-081,HR Materials Archive,Process,Deepa Subramaniam,HR,Confidential,2026-02-18,pii-included
+GOV-082,Customer Backup Service,Process,Rohan Pandey,Customer Support,Confidential,2026-04-16,pii-included
+GOV-083,IT Billing System,Dataset,Naveen Bhat,IT Security,Restricted,2026-03-17,operational-metrics
+GOV-084,Finance API Gateway,Process,Sneha Bhat,Finance,Restricted,2026-02-25,credentials
+GOV-085,Product Access Store,Process,Pooja Bhat,Product,Restricted,2026-06-20,inventory
+GOV-086,Marketing Audit Log System,System,Preeti Desai,Marketing,Public,2026-03-08,payroll
+GOV-087,Marketing Access Store,System,Arjun Joshi,Marketing,Restricted,2026-02-10,operational-metrics
+GOV-088,Learning API Gateway,Dataset,Preeti Pillai,Learning & Development,Internal,2026-03-30,credentials
+GOV-089,Product Data Lake,System,Manoj Subramaniam,Product,Public,2026-06-19,inventory
+GOV-090,Product Materials Archive,Dataset,Karthik Chandran,Product,Restricted,2026-02-27,payroll
+GOV-091,Operations CRM Module,System,Aditya Pandey,Operations,Restricted,2026-05-14,financial-data
+GOV-092,Operations Config Store,Dataset,Vivek Krishnan,Operations,Internal,2026-03-11,inventory
+GOV-093,Learning Materials Archive,Process,Vivek Mishra,Learning & Development,Confidential,2026-04-28,contract-data
+GOV-094,Procurement Config Store,Dataset,Rohan Reddy,Procurement,Internal,2026-06-29,public-content
+GOV-095,Sales Analytics Pipeline,System,Sanjay Iyer,Sales,Confidential,2026-03-14,credentials
+GOV-096,Finance Access Store,Dataset,Pooja Nambiar,Finance,Public,2026-06-26,unclassified
+GOV-097,Legal Records System,Process,Nikhil Rao,Legal,Internal,2026-02-18,inventory
+GOV-098,HR Billing System,Process,Ananya Subramaniam,HR,Internal,2026-04-06,credentials
+GOV-099,Procurement Billing System,Process,Harish Desai,Procurement,Restricted,2026-06-27,customer-data
+GOV-100,Marketing Processing Module,Process,Vivek Nair,Marketing,Restricted,2026-06-02,contract-data
